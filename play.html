@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>A Thinking Sam (AKA Sam Slover)</title>
+	<meta name="description" content="Sam Slover does interactive tech, design and code in New York City by way of Atlanta. This is his website." />
+  	<meta name="keywords" content="Sam Slover, Samuel Slover, Slover, NYU ITP, Learn It Live" />
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+  	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/play.css">
+	<link rel="stylesheet" href="stylesheets/responsiveslides.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link href="images/favicon.png" rel="shortcut icon" type="image/png" />	
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body onload="setTimeout(init,1000);">
+<div id="canvas-wrap">
+   <canvas id="canvas" width="0" height="0"></canvas>	
+	<div class="top-bar"></div>
+	<div id="intro">
+	
+		<div class="bg1"></div>
+	
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><span class="logo"><span class="logotext">&nbsp;</span></span></li>
+				<li><a href="#approach">Approach</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<div id="hid" style="display:none">
+	          <div class="arrow_box">
+				<p>Play Around Below - Press &amp; Drag</p>
+				<p><a id="reset">Or Click Here to Reset</a>
+	          </div>
+	         </div>
+		</nav>
+		<div class="title">
+		<div id="playground">
+			<div id="box" style="width: 549px; height: 65px; top: 30px; left: 434px; position: absolute;">
+				<h1>Sam Slover</h1>
+			</div>
+			<div id="box" style="width: 975px; height: 50px; top: 120px; left: 220px; position: absolute;">
+				<h1 class="smallh1">Interactive tech, design and code in NYC</h1>
+			</div>
+			<div id="box" style="width: 1024px; height: 40px; top: 180px; left: 196px; position: absolute;">
+				<h1 class="smallerh1">I explore data visualizaton, Web &amp; mobile design, and edtech.</h1>
+			</div>
+			<div id="box" style="width: 293px; height: 50px; top: 230px; left: 558px; position: absolute;">
+				<h1 class="smallerh1">Connect with me.</h1>
+			</div>
+				<ul class="social">
+					<li ><a href="https://twitter.com/sloversam" target="_blank"><div class="twitter sprite" style="width: 50px; height: 50px; top: 300px; left: 588px; position: absolute;"></div></a></li>
+					<li><a href="http://www.facebook.com/samslover" target="_blank"><div class="facebook sprite" id="box" style="width: 50px; height: 50px; top: 300px; left: 652px; position: absolute;"></div></a></li>
+					<li><a href="http://www.linkedin.com/pub/samuel-slover/16/1b9/38/" target="_blank"><div class="linkedin sprite" id="box" style="width: 50px; height: 50px; top: 300px; left: 717px;
+position: absolute;"></div></a></li>
+					<li><a href="https://plus.google.com/u/0/113929236976252085661/posts" target="_blank"><div class="gplus sprite" id="box" style="width: 50px; height: 50px; top: 300px; left: 781px; position: absolute;"></div></a></li>
+				</ul>
+			</div>
+		</div> <!-- end title -->
+	</div>	
+	</div> <!-- end intro -->
+	
+	
+	<div class="dotted-bar"></div>
+</div>
+	<div class="clear"></div>
+	<div class="nav2">
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#projects">Projects &nbsp; &nbsp;</a></li>
+			<li><a href="#intro" class="navlogo_hover"><span class="navlogo"></span></a></li>
+			<li><a href="#approach">Approach</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</div> <!-- end nav2 -->
+	
+<div id="about">
+		<div class="container2">
+		
+			<div class="sixteen columns">
+				<h2><span class="line3"></span> About <span class="line4"></span></h2>
+				<p class="headline">I work on interactive technology projects at the intersecton of data, design, and learning.</p>
+			</div> <!-- end sixteen columns -->		
+			
+			<div class="twelve columns">
+				<h3>About Me</h3>
+				<div class="four columns alpha">
+					<img src="images/about-pic.png" class="scale-with-grid" alt="Sam Slover" />
+					<img src="images/sam-nyc.png" class="scale-with-grid" style="padding-top:20px;" alt="Sam Slover in NYC" />
+				</div> <!-- end four columns -->
+				<div class="eight columns omega">
+					<p>Currently working on <a href="http://itp.nyu.edu/" target="blank">NYU ITP</a>, <a href="http://www.learnitlive.com/" target="blank">Learn It Live</a>, and a few other fun <a href="#projects">projects</a> too, I'm most passionate about creating new technologies and media that allow people to better learn about themselves and the world they live in, and hopefully make better decisions because of it.</p>
+					<p>I do this through data, design, and education, and my goal is that my work is globally useful. While I love to design and code, I believe these are ultimately just tools to create new platforms and tell stories that can engage and inform.</p>
+					<p>I love philosophy, soulful music, clean design, basketball, traveling, writing, skiing, art, cooking, and other things too. I have mixed feelings toward modernity, but that’s a long story.</p>
+				</div> <!-- end eight columns -->
+			</div> <!-- twelve columns -->
+			
+			<div class="four columns">
+				<div class="last_tweets">
+					<div id="twitter_update_list"></div>
+				</div> <!-- end last_tweets -->
+			</div> <!-- end four columns -->
+			
+			<div class="clear"></div>
+			
+		</div> <!-- end container2 -->
+	</div> <!-- end about -->
+
+	
+	<div id="projects">
+		<div class="container2">
+			<div class="sixteen columns">
+				<h2><span class="line"></span> Projects <span class="line2"></span></h2>
+				<p class="headline" style="margin-bottom:0px;">My projects span across the digital and non-digital realms. I believe technology must be firmly grounded in the real world with real people. In addition to interactive digital applications, I've worked on social entrepreneur initiatives in Honduras and India, launched a seed capital program at a micro-finance firm in Bolivia, and generally try to volunteer my time for educational programs.</p>
+			</div> <!-- end sixteen columns -->
+		
+			
+			<div class="clear"></div>
+			
+			<div class="portfolio">
+			
+				<div class="sixteen columns">
+					<h3>Featured Projects</h3>
+				</div>
+				
+				<div class="one-third column">
+					<!-- gallery -->
+					<a rel="gallery" href="http://www.learnitlive.com" target="_blank"><img src="images/learnitlive.png" class="scale-with-grid" alt="" /></a>
+					<!-- end gallery -->
+					<p class="proj-name">Learn It Live</p>
+					<p class="proj-desc">Learn It Live is an online learning website that connects people to experts in business, technology, health and wellness, and languages.</p>
+				</div> <!-- end one third column-->
+				
+				<div class="one-third column">
+					<a href="http://www.street-beacon.com" target="_blank"><img src="images/streetbeacon.png" class="scale-with-grid" alt="" /></a>
+					<p class="proj-name">Street Beacon</p>
+					<p class="proj-desc">Street Beacon is a submission for the NYC Reinvent Payphone Challenge, providing real-time, hyper-local info for each payphone.</p>
+				</div> <!-- end one third column-->
+				
+				<div class="one-third column">
+					<a href="http://bit.ly/economz" target="_blank"><img src="images/economz.png" class="scale-with-grid" alt="" /></a>
+					<p class="proj-name">Economz</p>
+					<p class="proj-desc">Economz is a data visualization project that helps people make sense of how their food choices affect their carbon footprint.</p>
+				</div> <!-- end one third column-->
+
+				<div class="one-third column">
+					<a href="http://www.itp2014.com" target="_blank"><img src="images/itp2014.png" class="scale-with-grid" alt="" /></a>
+					<p class="proj-name">ITP 2014</p>
+					<p class="proj-desc">ITP 2014 is a community-driven website that showcases the identity of the ITP Class of 2014 through shared experiences and activities.</p>
+				</div> <!-- end one third column-->
+
+				<div class="one-third column">
+					<a href="http://www.prorural.org.bo/" target="_blank"><img src="images/prorural.png" class="scale-with-grid" alt="" /></a>
+					<p class="proj-name">Pro Rural</p>
+					<p class="proj-desc">Pro Rural is a Bolivian NGO working in rural development. I worked with them to launch a seed and start-up capital program.</p>
+				</div> <!-- end one third column-->
+
+				<div class="one-third column">
+					<a href="http://itp.nyu.edu/~sjs663/a-thinking-sam/collectabite-an-experiment-in-shared-nutrition/" target="_blank"><img src="images/collectabite.png" class="scale-with-grid" alt="" /></a>
+					<p class="proj-name">Collectabite</p>
+					<p class="proj-desc">Collectabite is a shared nutrition system that tracks how often people are eating healthy, and highlights positive group habits.</p>
+				</div> <!-- end one third column-->
+				
+				<div class="one-third column">
+					<a href="http://youtu.be/sISSUzXIaTE" target="_blank"><img src="images/kanyeifyme.png" class="scale-with-grid" alt="" /></a>
+					<p class="proj-name">Kanyeify Me</p>
+					<p class="proj-desc">Kanyeify Me is a fun interactive music video that allows anyone to become their favorite hip hop superstar, Kanye West.</p>
+				</div> <!-- end one third column-->
+				
+				<div class="one-third column">
+					<a href="http://itp.nyu.edu/~sjs663/a-thinking-sam/interactive-digital-photomosaics/" target="_blank"><img src="images/photomosaic.png" class="scale-with-grid" alt="" /></a>
+					<p class="proj-name">Interactive Photomosaics</p>
+					<p class="proj-desc">Interactive Photomosaics allows people to easily create digital photomosaics. Users can enter “Explore Mode” to learn more about a cell.</p>
+				</div> <!-- end one third column-->
+
+				<div class="one-third column">
+					<a href="http://insiteny.com" target="_blank"><img src="images/insite.png" class="scale-with-grid" alt="" /></a>
+					<p class="proj-name">InSITE NYC</p>
+					<p class="proj-desc">InSITE NYC works to strengthen the entrepreneurial ecosystem in New York though projects and assistance to tech start-ups.</p>
+				</div> <!-- end one third column-->
+
+
+			</div> <!-- end portfolio -->
+			
+		</div> <!-- end container2 -->
+	</div> <!-- end work -->
+
+	
+	<div class="dotted-bar2">
+		<a href="#intro"><span class="top"></span></a>
+	</div>
+
+	
+	<div id="approach">
+		<div class="container2">
+			
+			<div class="sixteen columns">
+				<h2><span class="line3"></span> Approach <span class="line4"></span></h2>
+				<p class="headline">I have a few ever-evolving beliefs that define my approach toward my work.</p>
+			</div> <!-- end sixteen columns -->
+			
+			<div class="four columns">
+				<img src="images/data.png" alt="" class="serv-icon" />
+				<h4>Data</h4>
+				<p class="serv">The world is awash with data. I seek to use data responsibly, both to inform my own projects and to give people new information that can improve their day-to-day decision-making and behaviors.</p>
+			</div> <!-- end four columns -->
+			
+			<div class="four columns">
+				<img src="images/design.png" alt="" class="serv-icon" />
+				<h4>Design</h4>
+				<p class="serv">I believe in simple, minimal design that stays out of the user's way. Design must be more than how something looks visually; rather, it should be the entire experience one has with a product. It must be elegant.</p>
+			</div> <!-- end four columns -->
+			
+			<div class="four columns">
+				<img src="images/delight.png" alt="" class="serv-icon" />
+				<h4>Delight</h4>
+				<p class="serv">I'm inspired by projects that introduce random delight and whimsy, at times causing participants to do a double take. I seek to introduce elements of surprise, whimsy, and the unexpected.</p>
+			</div> <!-- end four columns -->
+			
+			<div class="four columns">
+				<img src="images/global.png" alt="" class="serv-icon" />
+				<h4>Global</h4>
+				<p class="serv">We’re living in the midst of a deeply transformative technological revolution, where the world is becoming rapidly connected and information is no longer centralized. I aim to design for this global community.</p>
+			</div> <!-- end four columns -->
+			
+		</div> <!-- end container2 -->
+	</div> <!-- end services -->
+	
+	<div class="dotted-bar2">
+		<a href="#intro"><span class="top"></span></a>
+	</div>
+	
+		
+
+	<div id="contact">
+		
+		<div class="bg2"></div>
+	
+		<div class="dotted-bar3">
+			<a href="#intro"><span class="top2"></span></a>
+		</div>		
+	
+		<div class="container2">
+		
+			<div class="sixteen columns">
+				<h2><span class="line"></span> Contact <span class="line2"></span></h2>
+				<p class="headline" style="margin-bottom:10px;">Want to get in touch? Your best bet is to send me an e-mail. Hit me up at sam<a href="http://www.google.com/recaptcha/mailhide/d?k=01ualk8dIPnHbVLscF8DBbKA==&amp;c=VVD5WjjinqoXHRoTT9bhX0A1xsdPihNQUJv3KKleyBM=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501ualk8dIPnHbVLscF8DBbKA\75\75\46c\75VVD5WjjinqoXHRoTT9bhX0A1xsdPihNQUJv3KKleyBM\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">...</a>@athinkingsam.com</p>
+			</div> <!-- end sixteen columns -->	
+	
+			<div class="clear"></div>
+			<div class="ats"></div>
+			<!--
+				<div class="contact-form">
+					
+					<div class="done">
+						<b>Thank you!</b> I have received your message. 
+					</div>
+				
+					<form method="post" action="process.php">
+						<p>name</p>
+						<input type="text" name="name" class="text" />
+						
+						<p>email</p>
+						<input type="text" name="email" class="text" id="email" />
+
+						<p>message</p>
+						<textarea name="comment" class="text"></textarea>
+
+						<input type="submit" id="submit" value="send" class="submit-button" />
+					</form>
+						
+				</div> --> <!-- end contact-form -->
+			
+<!-- end copyright -->			
+	</div> <!-- end contact -->
+	
+<!-- End Document
+================================================== -->
+</body>
+
+	<!-- JS
+	================================================== -->
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script src="javascripts/jquery.sticky.js" type="text/javascript"></script>
+	<script src="javascripts/nbw-parallax.js" type="text/javascript"></script>
+	<script src="javascripts/jquery.inview.js" type="text/javascript"></script>
+	<script src="javascripts/smooth-scroll.js" type="text/javascript"></script>
+	<script src="javascripts/responsiveslides.js" type="text/javascript"></script>
+	<script src="http://twitter.com/javascripts/blogger.js" type="text/javascript"></script>
+	<script src="https://api.twitter.com/1/statuses/user_timeline/sloversam.json?callback=twitterCallback2&amp;count=4" type="text/javascript"></script>
+	<script src="javascripts/jquery.transit.js" type="text/javascript"></script>
+	
+	<!-- Sticky nav2 -->
+	<script>
+		$(document).ready(function(){
+			$(".nav2").sticky({topSpacing:34});
+		});
+	</script>
+	
+	<!-- responsive slides -->
+	<script>
+		$(function () {
+			$(".rslides").responsiveSlides({
+				maxwidth: 423,
+				speed: 400
+			});
+		});
+	</script>
+	
+	<!-- box2d playground!! :-D-->
+
+   <script type="text/javascript" src="javascripts/Box2dWeb-2.1.a.3.js"></script>
+   <script type="text/javascript" src="javascripts/RequestAnimationFrame.js"></script>
+   <script type="text/javascript" src="javascripts/MouseAndTouch.js"></script>
+   <script type="text/javascript">
+
+   		// Keep a reference to the Box2D World
+		var world;
+
+		// The scale between Box2D units and pixels
+		var SCALE = 30;
+
+		// Multiply to convert degrees to radians.
+		var D2R = Math.PI / 180;
+
+		// Multiply to convert radians to degrees.
+		var R2D = 180 / Math.PI;
+
+		// 360 degrees in radians.
+		var PI2 = Math.PI * 2;
+		var interval;
+
+		//Cache the canvas DOM reference
+		var canvas;
+
+		//how far from the top are we starting?
+		var offset = 300;
+
+		//Are we debug drawing
+		var debug = false;
+
+		// Shorthand "imports"
+		var b2Vec2 = Box2D.Common.Math.b2Vec2,
+			b2BodyDef = Box2D.Dynamics.b2BodyDef,
+			b2AABB = Box2D.Collision.b2AABB,
+			b2Body = Box2D.Dynamics.b2Body,
+			b2FixtureDef = Box2D.Dynamics.b2FixtureDef,
+			b2Fixture = Box2D.Dynamics.b2Fixture,
+			b2World = Box2D.Dynamics.b2World,
+			b2MassData = Box2D.Collision.Shapes.b2MassData,
+			b2PolygonShape = Box2D.Collision.Shapes.b2PolygonShape,
+			b2CircleShape = Box2D.Collision.Shapes.b2CircleShape,
+			b2DebugDraw = Box2D.Dynamics.b2DebugDraw,
+			b2MouseJointDef =  Box2D.Dynamics.Joints.b2MouseJointDef,
+			b2EdgeShape = Box2D.Collision.Shapes.b2EdgeShape;
+
+		function init() {
+
+			//Create the Box2D World with horizontal and vertical gravity
+			world = new b2World(
+			new b2Vec2(0, 10) 
+			, true 
+			);
+
+			//setup debug draw
+			var debugDraw = new b2DebugDraw();
+			canvas = $("#canvas");
+			debugDraw.SetSprite(canvas[0].getContext("2d"));
+			debugDraw.SetDrawScale(SCALE);
+			debugDraw.SetFillAlpha(0.3);
+			debugDraw.SetLineThickness(1.0);
+			debugDraw.SetFlags(b2DebugDraw.e_shapeBit | b2DebugDraw.e_jointBit);
+			world.SetDebugDraw(debugDraw);
+
+			//Create DOB OBjects
+			createDOMObjects();
+
+			//Make sure that the screen canvas for debug drawing matches the window size
+			resizeHandler();
+			$(window).bind('resize', resizeHandler);
+
+			//on click, resets browser
+			$("#reset").click(function() {
+				document.location.reload();
+			});
+
+			//set up the drawing debug
+			$("#debugDraw").click(function () {
+				if ($("#debugDraw:checked").val()) {
+					debug = true;
+				} else {
+					debug = false;
+					canvas.width = canvas.width;
+				}
+				$("article").animate({opacity:debug ? 0.2 : 1},1000);
+			})
+
+			//Create the ground by creating boxes at the bottom, left, and right of the window. No box on top so boxes can go vertical
+			var w = $(window).width(); 
+			var h = $(window).height();
+			console.log("height is " + h);
+
+			createBox(0, h , w, 5, true);
+			createBox(0,0,5,h, true);
+			createBox(w,0,5,h, true);
+
+			//Do one animation iteration and start animating
+			interval = setInterval(update,1000/60);
+			update();
+		}
+
+		function createDOMObjects() {
+			//iterate all div elements in the playground area and create them in the Box2D system
+			$("#playground div").each(function (a,b) {
+				var domObj = $(b);
+				var domPos = $(b).position();
+				domPos.top = domPos.top + 200;
+				var width = domObj.width() / 2 
+				var height = domObj.height() / 2
+	            var x = (domPos.left) + width;
+	            var y = (domPos.top) + height;
+	            var body = createBox(x,y,width,height);
+				body.m_userData = {domObj:domObj, width:width, height:height};
+				
+				//Reset DOM object position for use with CSS3 positioning. -200 is offset from top of screen
+				domObj.css({'left':'0px', 'top':'-200px'});
+			});
+		}
+
+		function createBox(x,y,width,height, static) {
+			var bodyDef = new b2BodyDef;
+			bodyDef.type = static ? b2Body.b2_staticBody : b2Body.b2_dynamicBody;
+			bodyDef.position.x = x / SCALE;
+			bodyDef.position.y = y / SCALE;
+			var fixDef = new b2FixtureDef;
+         	fixDef.density = 1.5;
+         	fixDef.friction = 0.3;
+         	fixDef.restitution = 0.4;
+
+			fixDef.shape = new b2PolygonShape;
+			fixDef.shape.SetAsBox(width / SCALE, height / SCALE);
+			return world.CreateBody(bodyDef).CreateFixture(fixDef);
+		}
+
+		//Animate the objects
+		function drawDOMObjects() {
+			var i = 0;
+			for (var b = world.m_bodyList; b; b = b.m_next) {
+		         for (var f = b.m_fixtureList; f; f = f.m_next) {
+						if (f.m_userData) {
+							//Retrieve positions and rotations from the Box2d world
+							var x = Math.floor((f.m_body.m_xf.position.x * SCALE) - f.m_userData.width);
+							var y = Math.floor((f.m_body.m_xf.position.y * SCALE) - f.m_userData.height);
+
+							//CSS3 transform does not like negative values or infitate decimals
+							var r = Math.round(((f.m_body.m_sweep.a + PI2) % PI2) * R2D * 100) / 100;
+
+							var css = {'-webkit-transform':'translate(' + x + 'px,' + y + 'px) rotate(' + r  + 'deg)', '-moz-transform':'translate(' + x + 'px,' + y + 'px) rotate(' + r  + 'deg)', '-ms-transform':'translate(' + x + 'px,' + y + 'px) rotate(' + r  + 'deg)'  , '-o-transform':'translate(' + x + 'px,' + y + 'px) rotate(' + r  + 'deg)', 'transform':'translate(' + x + 'px,' + y + 'px) rotate(' + r  + 'deg)'};
+
+							f.m_userData.domObj.css(css);
+						}
+		         }
+		      }
+		};
+
+		// call animation loop
+		function update() {
+			updateMouseDrag();
+
+			world.Step(
+			1 / 60 //frame-rate
+			, 10 //velocity iterations
+			, 10 //position iterations
+			);
+
+			//If you experience strange results, enable the debug drawing
+				world.DrawDebugData();
+
+			// draw the objects and then reset forces for next loop
+			drawDOMObjects();
+			world.ClearForces();
+		}
+   
+		//Keep the canvas size correct for debug drawing
+		function resizeHandler() {
+			canvas.attr('width', $(window).width());
+			canvas.attr('height', $(window).height());
+		}
+   </script>
+   <script type="text/javascript" src="javascripts/DebugMouseDrag.js"></script>
+
+   	<!-- bubble delay -->
+
+	<script type="text/javascript">
+		function showIt() {
+		document.getElementById("hid").style.display = "block";
+		}
+		setTimeout("showIt()",2750);
+	</script>
+
+</html>
